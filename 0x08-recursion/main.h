@@ -1,17 +1,13 @@
-#include "main.h"
-/**
- * _puts_recursion - function like puts();
- * @s: input
- * Return: Always 0 (Success)
- */
-void _puts_recursion(char *s)
-{
-	if (*s)
-	{
-		_putchar(*s);
-		_puts_recursion(s + 1);
-	}
+#ifndef MAIN_H
+#define MAIN_H
 
-	else
-		_putchar('\n');
-}
+void _puts_recursion(char *s);
+int _putchar(char c);
+void _print_rev_recursion(char *s);
+int _strlen_recursion(char *s);
+int factorial(int n);
+int _pow_recursion(int x, int y);
+int _sqrt_recursion(int n);
+int is_prime_number(int n);
+int is_palindrome(char *s);
+#endif
