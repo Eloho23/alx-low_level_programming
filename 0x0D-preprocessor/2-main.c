@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    printf("%s\n", __FILE__);
+    printf("Compiled from file: <unknown>\n");
     return 0;
 }
