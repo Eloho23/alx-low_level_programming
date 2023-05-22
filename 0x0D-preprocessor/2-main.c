@@ -1,6 +1,12 @@
 #include <stdio.h>
 
-int main() {
-    printf("Compiled from file: <unknown>\n");
-    return 0;
+/**
+ * main - activate the name of the file
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	printf("%s\n", __FILE__);
+	return (0);
 }
